@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+h2,
+input,
+button,
+p,
+span,
+label {
+  font-family: "Nunito", sans-serif;
+}
+
+label.ant-checkbox-wrapper {
+  font-size: 16px;
+}
+
+label.ant-checkbox-wrapper:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.ant-checkbox-group span.ant-checkbox-inner {
+  width: 12px;
+  height: 12px;
+  border-color: #6B47ED;
+  border-radius: 100%;
+}
+
+.ant-checkbox-group .ant-checkbox-disabled span.ant-checkbox-inner {
+  border-color: #D8D8D8;
+  background-color: #fff;
+}
+
+.ant-checkbox-checked span.ant-checkbox-inner {
+  background: #6B47ED;
+  border-color: #6B47ED;
+}
+
+.ant-checkbox-checked.ant-checkbox-disabled span.ant-checkbox-inner {
+  background: #D8D8D8;
+  border-color: #D8D8D8;
+}
+
+.ant-checkbox-wrapper{
+  color: #979797;
+}
+.ant-checkbox-wrapper-checked {
+  color: black;
+}
+
+.ant-checkbox-checked span.ant-checkbox-inner:after {
+  content: none;
+}
+
+button.ant-switch {
+  box-shadow: 0 0 2px 2px #D4CCF7 inset;
+}
+
+.ant-switch.ant-switch-checked {
+  background: #6B47ED;
+  height: 22px;
+  width: 45px;
+  border-radius: 40px;
+  box-shadow: none;
+  filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+  background: #6B47ED;
+  opacity: 0.8;
+}
+
+button.ant-switch:hover:not(.ant-switch-disabled) {
+  background: rgba(0,0,0,0.1);
+}
+
+.ant-switch.ant-switch-checked .ant-switch-handle:before {
+  background: #fff;
+  right: 3px;
+}
+
+.ant-switch .ant-switch-handle:before {
+  background: #6B47ED;
+  width: 13.62px;
+  height: 13.24px;
+  top: 2.3px;
+  left: 3px;
+}
+
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background: #6B47ED;
+}
+
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner, 
+.ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner {
+  border-color: #6B47ED;
+}
+
+.ant-checkbox-checked.ant-checkbox-disabled+span {
+  color: black;
+}
