@@ -78,7 +78,11 @@ button.ant-switch:hover:not(.ant-switch-disabled) {
 
 .ant-switch.ant-switch-checked .ant-switch-handle:before {
   background: #fff;
-  right: 3px;
+  right: 4px;
+}
+
+.ant-switch.ant-switch-checked div.ant-switch-handle {
+  inset-inline-start: calc(100% - 22px);
 }
 
 .ant-switch .ant-switch-handle:before {
