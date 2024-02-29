@@ -3,7 +3,6 @@ import { Switch, Checkbox, GetProp } from 'antd';
 import RadioButton from './radioButton';
 import TextInput from './textInput';
 import SubHeading from './subHeading';
-import { ButtonHTMLType } from 'antd/es/button';
 import SubmitButton from './submitButton';
 
 const Form = () => {
