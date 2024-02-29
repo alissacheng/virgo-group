@@ -12,7 +12,7 @@ const Form = () => {
         toolsUsed: "0,2,3,4",
         firstName: ''
     })
-    const toolOptions:[string, string, string, string, string,] = [
+    const toolOptions:[string, string, string, string, string] = [
         'Redux', 
         'Lodash', 
         'Ant design', 

@@ -1,4 +1,5 @@
 import { RadioButtonType } from "../../types/RadioButtonType";
+
 const RadioButton = ({label, onChange, proficient, disabled}:RadioButtonType) => {
     return(
         <div>
